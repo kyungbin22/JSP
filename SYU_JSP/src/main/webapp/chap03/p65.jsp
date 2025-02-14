@@ -4,13 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>HTML 문서의 제목</title>
+<title>Insert title here</title>
 </head>
 <body>
 <%
-	String bookTitle="JSP 프로그래밍";
-	String author="최범균";
+	int sum = 0;
+for (int i = 0; i <= 10; i++) {
+	sum = sum + i;
+	}
 %>
-<b><%= bookTitle %></b><%= author %>입니다.
+1부터 10까지의 합은 <%= sum %> 입니다.
 </body>
 </html>
